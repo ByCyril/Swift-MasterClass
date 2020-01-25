@@ -24,6 +24,12 @@
 		01679AAF23D6AC28005F947B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01679AB223D6AC28005F947B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01679AB423D6AC28005F947B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01679ABB23D6AC34005F947B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		01679ABC23D6AC34005F947B /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		01679ABD23D6AC34005F947B /* DailyDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDataManager.swift; sourceTree = "<group>"; };
+		01679ABE23D6AC34005F947B /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		01679ABF23D6AC34005F947B /* DailyWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherData.swift; sourceTree = "<group>"; };
+		01679AC023D6AC34005F947B /* CurrentDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			children = (
 				01679AA623D6AC28005F947B /* AppDelegate.swift */,
 				01679AA823D6AC28005F947B /* SceneDelegate.swift */,
+				01679ABA23D6AC34005F947B /* Framework */,
 				01679AAA23D6AC28005F947B /* ViewController.swift */,
 				01679AAC23D6AC28005F947B /* Main.storyboard */,
 				01679AAF23D6AC28005F947B /* Assets.xcassets */,
@@ -65,6 +72,19 @@
 				01679AB423D6AC28005F947B /* Info.plist */,
 			);
 			path = WeatherLite;
+			sourceTree = "<group>";
+		};
+		01679ABA23D6AC34005F947B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				01679ABB23D6AC34005F947B /* DataManager.swift */,
+				01679ABC23D6AC34005F947B /* Double+Extension.swift */,
+				01679ABD23D6AC34005F947B /* DailyDataManager.swift */,
+				01679ABE23D6AC34005F947B /* CurrentWeatherData.swift */,
+				01679ABF23D6AC34005F947B /* DailyWeatherData.swift */,
+				01679AC023D6AC34005F947B /* CurrentDataManager.swift */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
